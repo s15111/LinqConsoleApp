@@ -390,6 +390,7 @@ namespace LinqConsoleApp
         {
             var res2 = Emps.Aggregate((bigEmp, emp) => bigEmp.Salary < emp.Salary ? emp : bigEmp);
 
+            Console.WriteLine(res2);
         }
 
         //Z pomocą języka LINQ i metody SelectMany wykonaj złączenie
